@@ -40,12 +40,18 @@ public class ThreeSolidMain
  }
 
 // interface segregation principle - good example
-interface IWorker {
-	public void work();
-	public void eat();
+interface IWorker extends IWorkable, IFeedable{
 }   
 
-class Worker implements IWorker{
+interface IWorkable {
+	public void work();
+}
+
+interface IFeedable {
+	publice void eat();
+}
+
+class Worker implements IWorkable, IFeedable{
 	public void work() {
 		// ....working
 	}
@@ -55,7 +61,13 @@ class Worker implements IWorker{
 	}
 }
 
-class SuperWorker implements IWorker{
+class Robot implements IWorkable{
+	public void work() {
+		// ....working
+	}
+}
+
+class SuperWorker implements IWorkable, IFeedable{
 	public void work() {
 		//.... working much more
 	}
@@ -66,12 +78,12 @@ class SuperWorker implements IWorker{
 }
 
 class Manager {
-	IWorker worker;
+	Worker worker;
 
 	public void Manager() {
 
 	}
-	public void setWorker(IWorker w) {
+	public void setWorker(Worker w) {
 		worker=w;
 	}
 
