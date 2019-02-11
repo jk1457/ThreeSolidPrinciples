@@ -2,13 +2,14 @@
 
 [UPair] (working title)
 
-  * just the team
-  * creating a stand alone aaplication that allows students to connect with other student who share a similar schedule or who have a schedule overlap
-  * students at universities
-  * to facilitate study groups on university campus and to enhance the scholastic experience
-  
-Hello! Welcome to UPair!
-UPair is an application that allows students to pair up with other students that share overlapping class schedules in order to facilitate grouping up to study. This should allow students to be more successful in the scholastic career. This application is unique in its ability to facilitate interconnectivity between students on and off campus.
+Our Vision:
 
-Things that could help the project:
-users, servers, website, a domain, 
+Our team of four will create an application targeted at the students of universities in an attempt to facilitate the creation of study groups. The application will help students who share similar schedules collaborate and study more efficiently.
+  
+Welcome to UPair!
+
+UPair is an application that allows students to pair up with other students that share overlapping class schedules in order to facilitate grouping up to study. This should allow students to be more successful in their scholastic career. This application is unique in its ability to facilitate interconnectivity between students both on and off campus.
+
+Help Support Development!
+
+UPair can expand and spread to many different universities across the globe with help in the form of: server access at participating universities, a dedicated website, and an expanded development team to maintain and push out updates.
