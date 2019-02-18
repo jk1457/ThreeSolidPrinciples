@@ -1,6 +1,5 @@
 package threesolid;
 
-interface Robot extends IWorkable{
+interface Robot extends BaseWorker implements IReboot{
     public void work();
 }
-

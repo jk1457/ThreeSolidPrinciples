@@ -6,36 +6,33 @@ import java.io.*;
 
 //import threesolid.IWorker;
 
-class Worker implements IWorkable, IFeedable{
-	public void work() {
-		// ....working
-	}
-
-	public void eat() {
-		//.... eating in lunch break
-	}
+class Worker extends BaseWorker implements IEat, ISick {
 }
 
-class SuperWorker implements IWorkable, IFeedable{
+class SuperWorker extends BaseWorker implements IEat, ISick{
 	public void work() {
 		// ....working much more
 	}
 
-	public void eat() {
-		//.... eating in lunch break
+}
+
+class TempWorker extends BaseWorker implements IEat, ISick {
+	public void work() {
+		// ....working much more
 	}
+
 }
 
 class Manager {
 	Worker worker;
-	
+
 	public void Manager() {
-	
+
 	}
 	public void setWorker(Worker w) {
 		worker = w;
 	}
-	
+
 	public void manager() {
 		worker.work();
 	}
