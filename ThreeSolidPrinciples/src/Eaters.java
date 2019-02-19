@@ -7,11 +7,29 @@ import java.io.*;
 //import threesolid.IWorker;
 
 class Worker extends BaseWorker implements IEat, ISick {
+	public void eat()
+	{
+
+	}
+
+	public void sick()
+	{
+
+	}
 }
 
 class SuperWorker extends BaseWorker implements IEat, ISick{
 	public void work() {
 		// ....working much more
+	}
+	public void eat()
+	{
+
+	}
+
+	public void sick()
+	{
+
 	}
 
 }
@@ -19,6 +37,16 @@ class SuperWorker extends BaseWorker implements IEat, ISick{
 class TempWorker extends BaseWorker implements IEat, ISick {
 	public void work() {
 		// ....working much more
+	}
+
+	public void eat()
+	{
+
+	}
+
+	public void sick()
+	{
+
 	}
 
 }
