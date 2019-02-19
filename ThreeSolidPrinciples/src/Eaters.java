@@ -9,12 +9,12 @@ import java.io.*;
 class Worker extends BaseWorker implements IEat, ISick {
 	public void eat()
 	{
-
+		System.out.format("Welcome to Earth.\n");
 	}
 
 	public void sick()
 	{
-
+		System.out.format("Welcome to Earth.\n");
 	}
 }
 
@@ -24,29 +24,29 @@ class SuperWorker extends BaseWorker implements IEat, ISick{
 	}
 	public void eat()
 	{
-
+		System.out.format("Welcome to Earth.\n");
 	}
 
 	public void sick()
 	{
-
+		System.out.format("Welcome to Earth.\n");
 	}
 
 }
 
 class TempWorker extends BaseWorker implements IEat, ISick {
 	public void work() {
-		// ....working much more
+	System.out.format("Welcome to Earth.\n");
 	}
 
 	public void eat()
 	{
-
+		System.out.format("Welcome to Earth.\n");
 	}
 
 	public void sick()
 	{
-
+		System.out.format("Welcome to Earth.\n"); 
 	}
 
 }
