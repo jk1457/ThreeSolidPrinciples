@@ -3,22 +3,22 @@ package threesolid;
 import javax.net.ssl.ManagerFactoryParameters;
 import java.awt.*;
 import java.awt.event.*;
-import java.io.;
+import java.io.*;
 
 
-class ProjectManager implements schedulework extends Manager {
+class ProjectManager extends Manager {
+  public void schedulework()
+	{
+		System.out.format("Welcome to Earth.\n");
+	}
 
-    schedulework = schedulework();{
-        //...more
-    }
 
 }
 
-class ProductManager implements defineproduct extends Manager {
-
-    defineproduct = defineproduct();{
-        //...more
-    }
+class ProductManager extends Manager {
+  public void defineproduct()
+	{
+		System.out.format("Welcome to Earth.\n");
+	}
 
 }
-
