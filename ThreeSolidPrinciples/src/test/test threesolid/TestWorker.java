@@ -15,4 +15,11 @@ public class TestWorker {
 	{
 		assertEquals(w.work(), "I'm working already!","Mismatch between test text and method text");
 	}
+	
+	@Test
+	@DisplayName("Null Test")
+	{
+		assertNull("Worker object was initiated.", Worker w);
+	}
+
 }
